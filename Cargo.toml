@@ -1,0 +1,18 @@
+[package]
+name = "from_ref"
+version = "0.0.1" # change with html_root_url in lib.rs
+edition = "2021"
+authors = ["nomissbowling <nomissbowling@yahoo.co.jp>"]
+
+description = "from_ref_* macros auto generate standard implementation of trait From without Copy derive"
+keywords = ["convertor", "converter", "constructor"]
+categories = ["rust-patterns"]
+license = "MIT"
+
+documentation = "https://docs.rs/from_ref/"
+homepage = "https://crates.io/crates/from_ref"
+repository = "https://github.com/nomissbowling/from_ref"
+
+readme = "README.md"
+
+[dependencies]
